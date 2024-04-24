@@ -1,0 +1,28 @@
+.outer {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #222;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  height: 85%;
+  width: 85%;
+  padding: 1em;
+  overflow: hidden;
+  font-family: "Trebuchet Ms", helvetica, sans-serif;
+}
+.container a:link,
+.container a:visited {
+  position: absolute;
+  top: 85%;
+  right: 10%;
+  color: #ddd;
+  text-decoration: none;
+}
+.container img {
+  width: 400px;
+}
